@@ -11,5 +11,6 @@ Exercise 01-B
  ```
  docker run -d --name foo-bar -p 8080:9999 konte:latest
 ```
-It can then be accessed on localhost:8080
+It can then be accessed on localhost:8080.
+The reason for the 404 not found is because the endpoint in DemoController is set to use a file called index.html when accessing localhost:xxxx/ and Docker cannot allocate the file if you dont specify it in the second stage of the DockerFile. This was fixed by adding ```COPY index.html .``` on line 9 in the Dockerfile.
 
