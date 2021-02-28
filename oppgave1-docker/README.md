@@ -1,6 +1,6 @@
-###PGR301 2021 February Exam
+## PGR301 2021 February Exam EX01
 
-Exercise 01-A
+### Exercise 01-A
 * To build the latest docker-image run the command:
 ```
 docker build . --tag konte
