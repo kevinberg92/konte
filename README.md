@@ -1,4 +1,4 @@
-#Konteeksamen for 2020 PGR301
+# Konteeksamen for 2020 PGR301.
 
 * StudentNr: 705147
 
@@ -7,3 +7,4 @@
 * All exercises/tasks were completed
 * Noticed "bugs" is described in their respective directory.
 * No additional features were added outside the original requirements.
+---
